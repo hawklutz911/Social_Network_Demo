@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Profile.module.css"],"names":[],"mappings":"AAAA,0BACG,YAAa,CACZ,WACJ,CACA,yBACI,WAAY,CACZ,UAAW,CACX,iBACA","file":"4.b6eaa624.chunk.css","sourcesContent":[".item2 img {\r\n   height: 250px;\r\n    width: 800px;\r\n}\r\n.item img {\r\n    height: 40px;\r\n    width: 40px;\r\n    border-radius: 30%;\r\n    }\r\n"]}
