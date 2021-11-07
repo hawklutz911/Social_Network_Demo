@@ -5,7 +5,6 @@ import Navbar from "./components/Nav/Navbar";
 import {Route, withRouter} from "react-router-dom";
 import Music from "./components/Nav/Music/Music";
 import Settings from "./components/Nav/Settings/Settings";
-import News from "./components/Nav/News/News";
 import UsersContainer from "./components/Users/UsersContainer";
 import Login from "./components/Login/Login";
 import {connect} from "react-redux";
@@ -13,6 +12,7 @@ import {initializeApp} from "./redux/app-reducer";
 import {compose} from "redux";
 import Preloader from "./Preloader/Preloader";
 import {withSuspense} from "./hoc/withSuspence";
+import News from "./components/News/News"
 
 const DialogsContainer = React.lazy(()=>
 import ('./components/Dialogs/DialogsContainer'))

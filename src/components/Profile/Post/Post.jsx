@@ -19,7 +19,7 @@ const AddNewPostForm = (props) => {
 const AddNewPostFormRedux = reduxForm({form: "profileAddPost"}) (AddNewPostForm)
 
 const Post = (props) => {
-    let postsElements = props.posts.map(p => <MyPosts post={p.post} likesCount={p.likesCount}/>);
+    let postsElements = props.posts.map(p => <MyPosts key={p.id} post={p.post} likesCount={p.likesCount}/>);
     let friendsOnline = props.friendsOnline.map(p => <MyPosts post={p.friend}/>);
 
     let addNewPost = (values) => {
